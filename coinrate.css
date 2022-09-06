@@ -1,0 +1,60 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    
+}
+        img{
+            max-width:300px;
+            max-height: 300px;
+            margin-top: 89px;
+            margin-bottom: 20px;
+        }
+        h1{
+            margin-bottom: 15px;
+            color:black ;
+        }
+        h2{
+            color: white;
+        }
+        .container{
+            margin: 0 auto;
+        }
+        header{
+            height: 500px;
+            background: lightblue;
+            color: black;
+            font-weight: bold;
+            line-height: 1.6;
+        }
+        header .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        p{
+            margin-right: 19px;
+            color: black;
+        }
+        .rim{
+            color: white;
+            
+        }
+        .udo{
+            color: white;
+        }
+        .box{
+            display: flex;
+            background-image: url('thi.jpg');
+            flex: 1;
+            justify-content: space-evenly;
+            padding: 15px 20px;
+            margin: 20px 10px;
+        }
+        @media (max-width: 768px){
+            header{
+                flex-direction: column;
+
+            }
+        }
